@@ -16,4 +16,4 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-# https://www.youtube.com/watch?v=crKJEBxyxS8 buradan devam edeceğim.
+# https://www.youtube.com/watch?v=crKJEBxyxS8 buradan devam edeceğim. 14. dakikada kaldın
