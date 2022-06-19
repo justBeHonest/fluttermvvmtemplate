@@ -7,6 +7,7 @@ environment:
 dependencies:
   build_runner: ^2.1.11
   cupertino_icons: ^1.0.2
+  dio: ^4.0.6
   flutter:
     sdk: flutter
   flutter_mobx: ^2.0.6+1
