@@ -1,22 +1,17 @@
-import 'package:flutter/cupertino.dart';
-import 'package:fluttermvvmtemplate/core/init/notifier/theme_notifier.dart';
 import 'package:mobx/mobx.dart';
-import 'package:provider/provider.dart';
+import 'package:fluttermvvmtemplate/core/init/network/network_manager.dart';
+import 'package:fluttermvvmtemplate/view/authenticate/test/model/test_model.dart';
+
 part 'test_view_model.g.dart';
 
 class TestViewModel = _TestViewModelBase with _$TestViewModel;
 
 abstract class _TestViewModelBase with Store {
-  // This is for set context actually you should inherit this class from BaseView
-  // late BuildContext context;
-
-  // void setContext(BuildContext context) {
-  //   this.context = context;
-  // }
-
   // core ise
   @observable
   int number = 0;
+  @observable
+  bool isLoading = false;
 
   // işlem yapıyorsan
   @computed
@@ -26,6 +21,17 @@ abstract class _TestViewModelBase with Store {
   @action
   void incrementNumber() {
     number++;
+  }
+
+  @action
+  Future<void> getSampleRequest() async {
+    isLoading = true;
+    final list =
+        await NetworkManager.instance.dioGet<TestModel>("x", TestModel());
+    if (list is List) {
+      // contuinue your life
+    }
+    isLoading = false;
   }
 
   // This is for change theme

@@ -15,16 +15,12 @@ class _TestViewState extends BaseState<TestView> {
   late TestViewModel viewModel;
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: dynamicHeight(0.1),
-      color: themeData.primaryColor,
-      child: BaseView<TestViewModel>(
-        viewModel: TestViewModel(),
-        onModelReady: (model) {
-          viewModel = model;
-        },
-        onPageBuilder: (context, value) => const Text('data'),
-      ),
+    return BaseView<TestViewModel>(
+      viewModel: TestViewModel(),
+      onModelReady: (model) {
+        viewModel = model;
+      },
+      onPageBuilder: (context, value) => scaffoldBody,
     );
   }
 
