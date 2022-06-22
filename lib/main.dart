@@ -6,10 +6,10 @@ import 'package:fluttermvvmtemplate/core/init/notifier/theme_notifier.dart';
 import 'package:fluttermvvmtemplate/view/authenticate/test/view/test_view.dart';
 import 'package:provider/provider.dart';
 
-import 'core/init/cache/local_manager.dart';
+import 'core/init/cache/locale_manager.dart';
 
 void main() {
-  LocalManager.preferencesInit();
+  LocaleManager.preferencesInit();
   runApp(
     MultiProvider(
       providers: [...ApplicationProvider.instance.dependItems],

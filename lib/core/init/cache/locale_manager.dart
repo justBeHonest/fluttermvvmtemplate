@@ -2,12 +2,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../constants/enums/preferences_keys.dart';
 
-class LocalManager {
-  static LocalManager _instance = LocalManager._init();
+class LocaleManager {
+  static LocaleManager _instance = LocaleManager._init();
   late SharedPreferences _preferences;
-  static LocalManager get instance => _instance;
+  static LocaleManager get instance => _instance;
 
-  LocalManager._init() {
+  LocaleManager._init() {
     SharedPreferences.getInstance().then((value) {
       _preferences = value;
     });
