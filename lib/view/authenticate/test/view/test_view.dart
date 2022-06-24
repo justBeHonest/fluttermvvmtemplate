@@ -25,9 +25,10 @@ class _TestViewState extends BaseState<TestView> {
   }
 
   Widget get scaffoldBody => Scaffold(
-        // appBar: AppBar(
-        //   title: Text(LocaleKeys.welcome.tr),
-        // ),
+        appBar: AppBar(
+          title: Text('Cache memory'),
+          //title: Text(LocaleKeys.welcome.tr),
+        ),
         body: textNumber,
         floatingActionButton: floatingActionButtonNumberInmcrement,
       );
