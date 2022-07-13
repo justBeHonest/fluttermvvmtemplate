@@ -1,4 +1,6 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+// Package imports:
 import 'package:mobx/mobx.dart';
 
 class BaseView<T extends Store> extends StatefulWidget {

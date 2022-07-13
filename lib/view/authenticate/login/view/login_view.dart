@@ -1,6 +1,8 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
-import 'package:fluttermvvmtemplate/view/authenticate/login/viewmodel/login_view_model.dart';
 
+// Project imports:
+import 'package:fluttermvvmtemplate/view/authenticate/login/viewmodel/login_view_model.dart';
 import '../../../../core/base/view/base_view.dart';
 
 class LoginView extends StatelessWidget {

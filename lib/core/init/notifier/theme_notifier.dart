@@ -1,5 +1,5 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
-import 'package:fluttermvvmtemplate/core/init/theme/app_theme.dart';
 import 'package:fluttermvvmtemplate/core/init/theme/app_theme_light.dart';
 
 import '../../constants/enums/app_theme_enum.dart';

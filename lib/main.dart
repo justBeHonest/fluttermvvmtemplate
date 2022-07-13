@@ -1,11 +1,15 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:provider/provider.dart';
+
+// Project imports:
 import 'package:fluttermvvmtemplate/core/init/navigation/navigation_route.dart';
 import 'package:fluttermvvmtemplate/core/init/navigation/navigation_service.dart';
 import 'package:fluttermvvmtemplate/core/init/notifier/provider_list.dart';
 import 'package:fluttermvvmtemplate/core/init/notifier/theme_notifier.dart';
 import 'package:fluttermvvmtemplate/view/authenticate/test/view/test_view.dart';
-import 'package:provider/provider.dart';
-
 import 'core/init/cache/locale_manager.dart';
 
 void main() {

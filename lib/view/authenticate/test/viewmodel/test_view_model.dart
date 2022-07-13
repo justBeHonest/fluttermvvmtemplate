@@ -1,4 +1,7 @@
+// Package imports:
 import 'package:mobx/mobx.dart';
+
+// Project imports:
 import 'package:fluttermvvmtemplate/core/init/network/network_manager.dart';
 import 'package:fluttermvvmtemplate/view/authenticate/test/model/test_model.dart';
 

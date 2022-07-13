@@ -1,7 +1,10 @@
-import 'package:fluttermvvmtemplate/core/init/navigation/navigation_service.dart';
-import 'package:fluttermvvmtemplate/core/init/notifier/theme_notifier.dart';
+// Package imports:
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
+
+// Project imports:
+import 'package:fluttermvvmtemplate/core/init/navigation/navigation_service.dart';
+import 'package:fluttermvvmtemplate/core/init/notifier/theme_notifier.dart';
 
 class ApplicationProvider {
   static ApplicationProvider? _instance;

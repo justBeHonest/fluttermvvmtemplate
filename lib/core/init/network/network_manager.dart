@@ -1,7 +1,8 @@
+// Dart imports:
 import 'dart:io';
 
+// Package imports:
 import 'package:dio/dio.dart';
-import 'package:fluttermvvmtemplate/core/base/model/base_error.dart';
 import 'package:fluttermvvmtemplate/core/base/model/base_model.dart';
 import 'package:fluttermvvmtemplate/core/constants/enums/preferences_keys.dart';
 import 'package:fluttermvvmtemplate/core/init/cache/locale_manager.dart';

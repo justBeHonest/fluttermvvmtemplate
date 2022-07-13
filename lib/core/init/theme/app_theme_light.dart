@@ -1,4 +1,7 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
+
+// Project imports:
 import 'package:fluttermvvmtemplate/core/init/theme/app_theme.dart';
 
 class AppThemeLight extends AppTheme {

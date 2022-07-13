@@ -1,5 +1,7 @@
+// Package imports:
 import 'package:json_annotation/json_annotation.dart';
 
+// Project imports:
 import '../../../../core/base/model/base_model.dart';
 
 part 'test_model.g.dart';
