@@ -1,0 +1,4 @@
+{
+    "import sorting script" : "flutter pub run import_sorter:main",
+    "build runner script" : "flutter packages pub run build_runner build"
+}
